@@ -20,6 +20,21 @@ spending limits are controlled centrally.
 **The owner console** — a Next.js admin covering accounts, plans, usage, coupons, prompts, provider
 keys and kill switches, with the gateway's data contracts shared as typed Zod schemas.
 
+## Screenshots
+
+The owner console, running locally against its own Worker and a local D1 database with the project's
+migrations applied.
+
+![Overview](./screenshots/lifetrack-overview.png)
+
+| | |
+|---|---|
+| ![Prompts](./screenshots/lifetrack-prompts.png) | ![Plans](./screenshots/lifetrack-plans.png) |
+| Prompt registry: immutable versions, canary label, rollout and rollback, with an audit log of who moved what | Plan and entitlement configuration |
+
+![Gateway config](./screenshots/lifetrack-config.png)
+
+
 ## Decisions worth reading
 
 **User content stays on the device.** Personal logs are not replicated to a server for the feature to

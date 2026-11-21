@@ -7,7 +7,7 @@ describe the problem, the architecture and the decisions — the parts that are 
 |---|---|---|
 | [4G Phone Store](./4g-phone-store) | Client work — live in production | Next.js · Supabase · Vercel |
 | [Daftara Read](./daftara-read) | Client work — ERP integration PWA | Express · PWA |
-| [NAVA](./nava) | Commerce system — bilingual EN/AR | Next.js · Postgres |
+| [NAVA](./nava) | Design system + product spec — not yet built | Next.js · Postgres (specified) |
 | [Systemy](./systemy) | Co-founder — offline-first shop management | TypeScript · Postgres RLS · Workers · Capacitor |
 | [LifeTrack AI](./lifetrack-ai) | Product — offline-first Android + edge AI gateway | Kotlin · Jetpack Compose · Cloudflare Workers |
 
