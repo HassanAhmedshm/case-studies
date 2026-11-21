@@ -14,6 +14,15 @@ A phone-first dashboard that pulls from the Daftra REST API and installs to the 
 native app. Dashboard totals, recent orders, stock alerts and receivables, in Arabic and English, with
 the shop's own design language rather than a generic admin theme.
 
+## Screenshot
+
+![Dashboard](./screenshots/daftara-dashboard.png)
+
+**These figures are bundled sample data, not a client's books.** The app runs with `DEMO=1`
+against sample rows and never opens a connection to a live account; running it against the
+real ERP is a separate, credentialed mode. Showing the design without exposing anyone's
+financials is the point.
+
 ## Decisions worth reading
 
 **Read-only by architecture, not by discipline.** The server issues `GET` requests only. There is no

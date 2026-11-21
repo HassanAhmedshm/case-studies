@@ -19,6 +19,15 @@ cart, no online payment: the sale closes in a chat, which is how the customer al
 toggles, and a price column editable inline in the product list, including bulk updates across the
 whole catalogue.
 
+## Screenshots
+
+![Home](./screenshots/4g-home.png)
+
+![Product page](./screenshots/4g-product.png)
+
+The product page is the whole design in one screen: variants with their own prices, stock state,
+and a single red action that opens a pre-filled WhatsApp order.
+
 ## Decisions worth reading
 
 **The success criteria were the design.** Two numbers set the build: a full catalogue price sweep in

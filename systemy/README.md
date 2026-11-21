@@ -24,6 +24,23 @@ Coverage includes the debt ledger, single-amount cash sales, expenses, the cash 
 and supplier balances, inventory and pricing by weight, work tickets, field-agent commission, plan
 payments, and a support inbox — 78 screens rebuilt as one design system on Tailwind v4 and shadcn.
 
+## Screenshots
+
+Captured from the project's own demo rig — a disposable Postgres, the static export and the
+local Worker — with transactions recorded through the UI rather than painted into a mockup.
+
+| | |
+|---|---|
+| ![Home](./screenshots/systemy-home.png) | ![Reports](./screenshots/systemy-reports.png) |
+| Daily home: sales net of expenses, trial state, plan | Reports: period filter, net, sales/expense bars |
+| ![Day close](./screenshots/systemy-day-close.png) | ![Records](./screenshots/systemy-records.png) |
+| Cash-drawer close, broken down per payment method | The ledger: sales, expenses, customers, in one stream |
+| ![Arabic](./screenshots/systemy-home-arabic.png) | ![Phone](./screenshots/systemy-phone.png) |
+| Same screen in Arabic — the layout mirrors, it is not a translation overlay | Phone width is the primary target, not an afterthought |
+
+![Landing](./screenshots/systemy-landing-arabic.png)
+
+
 ## Decisions worth reading
 
 **One domain model, two clients.** The web app and the Android app are not two products. They share
