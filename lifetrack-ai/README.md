@@ -20,6 +20,20 @@ spending limits are controlled centrally.
 **The owner console** — a Next.js admin covering accounts, plans, usage, coupons, prompts, provider
 keys and kill switches, with the gateway's data contracts shared as typed Zod schemas.
 
+### The Android app, on a device
+
+Captured from the build installed on a phone over `adb` — not a simulator, not a mockup.
+
+| | | | |
+|---|---|---|---|
+| ![Sleep](./screenshots/lifetrack-app-sleep.png) | ![Home](./screenshots/lifetrack-app-home.png) | ![Stats](./screenshots/lifetrack-app-statistics.png) | ![Hub](./screenshots/lifetrack-app-hub.png) |
+| Sleep entry: a 24-hour dial you drag, with the computed duration on the dial | Home: today's focus, quick actions, and the AI gate stated plainly | Statistics: score, volume and streaks from real logged workouts | The hub: every module behind one shelf |
+
+The AI panel shows as locked because the subscription on this device has expired. That is the honest
+state of the build — the feature is gated by the gateway, and the gate is visible rather than hidden
+behind a silent failure.
+
+
 ## Screenshots
 
 The owner console, running locally against its own Worker and a local D1 database with the project's
